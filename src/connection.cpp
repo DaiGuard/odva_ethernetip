@@ -51,7 +51,7 @@ void Connection::setConnectionPoints(EIP_USINT origin, EIP_USINT target)
 {
   path_.reset();
   path_.addLogicalClass(0x04);
-  path_.addLogicalInstance(1);
+  path_.addLogicalInstance(151);
   path_.addLogicalConnectionPoint(origin);
   path_.addLogicalConnectionPoint(target);
 }
